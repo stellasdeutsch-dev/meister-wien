@@ -468,7 +468,7 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;bac
 .shots{display:grid;grid-auto-flow:column;grid-auto-columns:82%;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px var(--gut) 14px;margin:0 calc(var(--gut)*-1);scrollbar-width:none}
 .shots::-webkit-scrollbar{display:none}
 .shot{scroll-snap-align:center;margin:0;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 20px 40px -28px rgba(0,0,0,.45)}
-.shot img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.shot img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;object-position:top}
 .shot figcaption{padding:10px 12px;font-size:12px;color:var(--ink-2)}
 .shot figcaption b{color:var(--ink)}
 .rv-shots{display:grid;gap:12px;max-width:900px;margin:0 auto}
@@ -1415,9 +1415,8 @@ html:not(.gs) .rv:not(.in){transform:translateY(26px)}
       <article class="show wide rv">
         <div class="phones">
           <div class="phone"><div class="scr"><video class="vid" muted loop playsinline preload="none" data-poster="media/v-home.jpg"><source src="media/v-home.mp4" type="video/mp4"></video></div></div>
-          <div class="phone"><div class="scr"><video class="vid" muted loop playsinline preload="none" data-poster="media/v-app.jpg" style="object-position:0 0"><source src="media/v-app.mp4" type="video/mp4"></video></div></div>
         </div>
-        <div class="cap"><b>Гайд «Дом по-немецки» и приложение DerDieDas</b><p>114 слов про дом с иконками и озвучкой, интерактивная комната с предлогами. Как этот гайд, только про всю квартиру. А артикли учишь карточками, по одной в метро.</p></div>
+        <div class="cap"><b>Гайд «Дом по-немецки»</b><p>114 слов про дом с иконками и озвучкой, интерактивная комната с предлогами. Как этот гайд, только про всю квартиру.</p></div>
       </article>
       <article class="show rv">
         <div class="brw"><div class="bar"><i></i><i></i><i></i><span>gemini.google.com · Stellas · Gespräch</span></div><video class="vid" muted loop playsinline preload="none" data-poster="media/v-chat.jpg"><source src="media/v-chat.mp4" type="video/mp4"></video></div>
@@ -1429,12 +1428,15 @@ html:not(.gs) .rv:not(.in){transform:translateY(26px)}
       </article>
     </div>
 
-    <h2 class="h2" style="margin-top:56px">Внутри <em>Notion</em>. Работает <em>офлайн</em></h2>
-    <p class="sub">Скачал приложение Notion на телефон, и платформа с тобой. Даже в Keller, где нет сети и стоит та самая Therme.</p>
+    <h2 class="h2" style="margin-top:56px">Вот как это выглядит <em>в Notion</em></h2>
+    <p class="sub">Платформа живёт в Notion. Скачал приложение на телефон, и она с тобой. Работает офлайн, даже в Keller, где нет сети и стоит та самая Therme.</p>
     <div class="shots">
       <figure class="shot rv"><img src="media/n-p1-home.webp" alt="Главная страница платформы A0–A2 в Notion" loading="lazy" width="1000" height="625"><figcaption><b>Главная A0–A2.</b> Всё по уровням. Не надо искать.</figcaption></figure>
       <figure class="shot rv"><img src="media/n-p8-situations.webp" alt="Раздел лексики по ситуациям" loading="lazy" width="1000" height="625"><figcaption><b>Лексика по ситуациям.</b> Больница, покупки, сервис, квартира.</figcaption></figure>
       <figure class="shot rv"><img src="media/n-p6-tracker.webp" alt="Трекер прогресса в Notion" loading="lazy" width="1000" height="625"><figcaption><b>Трекер прогресса.</b> Видно, сколько уже сделано. Мотивирует лучше, чем стыд.</figcaption></figure>
+      <figure class="shot rv"><img src="media/n-a0-services.webp" alt="Лексика: услуги, работа, документы и госорганы" loading="lazy" width="1400" height="901"><figcaption><b>Услуги и госорганы.</b> Салон, барбершоп, запись по телефону, JobCenter.</figcaption></figure>
+      <figure class="shot rv"><img src="media/n-a0-city.webp" alt="Лексика: общение в городе, транспорт, еда" loading="lazy" width="1400" height="901"><figcaption><b>Город и транспорт.</b> Спросить дорогу, купить билет, пережить контролёра.</figcaption></figure>
+      <figure class="shot rv"><img src="media/n-a0-srs.webp" alt="Система интервальных повторений слов в Notion" loading="lazy" width="1400" height="901"><figcaption><b>Интервальные повторения.</b> Карточки A1–C1. Слово всплывает, когда пора.</figcaption></figure>
     </div>
 
     <h2 class="h2" style="margin-top:56px">Что о нас <em>говорят</em> ученики</h2>
